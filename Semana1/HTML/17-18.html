@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Mi Web</title>
+</head>
+<br />
+<h1>Formulario de registro - Mi Web</h1>
+<br />
+<form action="" method="GET">
+    <label for="name">Nombre:</label>
+    <input id="name" type="text" maxlength="50" />
+    <br /><br />
+    <label for="lastname">Apellidos:</label>
+    <input id="lastname" type="text" maxlength="50" />
+    <br /><br />
+    <label>Sexo:</label>
+    <input type="radio" name="sex" value="M" />
+    <label>hombre</label>
+    <input type="radio" name="sex" value="F" />
+    <label>mujer</label>
+    <br /><br />
+    <label for="email">Correo:</label>
+    <input type="email" id="email" />
+    <br /><br />
+    <label for="pob">Población:</label>
+    <select id="pob" title="población">
+        <option id="1">Alicante</option>
+        <option id="2">Madrid</option>
+        <option id="3">Sevilla</option>
+        <option id="4">Valencia</option>
+    </select>
+    <br /><br />
+    <label for="obs">Descripción:</label>
+    <textarea id="obs" maxlength="400"></textarea>
+    <br /><br />
+    <br />
+    <label for="agree1"></label>
+    <input type="checkbox" id="agree1">Deseo recibir información sobre novedades y ofertas</input>
+    <br /><br />
+    <label for="agree2"></label>
+    <input type="checkbox" id="agree2" checked="checked">Declaro haber leido y aceptar las condiciones generales del
+    programa y la
+    normativa sobre protección de datos</input>
+    <br /><br />
+    <input type="submit" height="15" style="vertical-align: middle;" />
+</form>
+</body>
+
+</html>

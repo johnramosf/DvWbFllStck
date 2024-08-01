@@ -1,0 +1,31 @@
+/*variables de entorno*/
+:root {
+  --oscuro:#07070a;
+  --azulOscuro: #0a1128;
+  --azulClaro: #006fef;
+  --blanco: #fefcfb;
+  --titulos: 'Garamond',italic;
+  --parrafos: 'Monserrat'. sans-serif;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,*::before, *::after {
+    box-sizing: inherit;
+} 
+/*body {
+    background-color:var(--oscuro);
+}*/
+.caja {
+   background-color: var(--azulClaro);
+   width:300px;
+   height: 300px;
+   padding: 20px 30px 0 0;
+   border: solid red 20px;  
+}
+p {
+    font-size: 2rem;
+}
+
+

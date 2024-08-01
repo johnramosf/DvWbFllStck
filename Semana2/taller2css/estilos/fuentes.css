@@ -1,0 +1,30 @@
+.cabecera p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;   
+    }          
+    #indice {
+        font-family: Verdana,Verdana, Geneva, Arial, Helvetica, sans-serif;   
+        font-size: large;
+        color:#fff;
+        text-transform: lowercase;
+    }
+    /*#indice a {
+        color:fuchsia;    
+    }*/
+
+    .contenido {
+    font-family: Verdana,Verdana, Geneva, Arial, Helvetica, sans-serif; 
+       font-weight: bold;
+       color: darkolivegreenx;
+       font-size: medium;
+       text-justify: distribute-all-lines;
+    }
+    #pie {
+        font-weight: bold;
+        text-align: center;
+        font-size: large;
+    }

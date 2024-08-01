@@ -1,0 +1,7 @@
+.hamburguesa span {
+    width: 5rem;
+    height: 1rem;
+    border: 3px solid white;
+    background-color: var(--oscuro);
+    display: block;
+}

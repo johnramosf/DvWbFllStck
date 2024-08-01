@@ -1,0 +1,43 @@
+.box {
+   width: 200px;
+   height: 400px;
+   border: solid;
+}
+.caja1 {
+    background:linear-gradient(rgb(23,22,22),yellow);
+    border-radius: 100px;
+}
+.caja2 {
+    background: linear-gradient(to right,rgb(0,255,174),rgb(12,52,173)); 
+}
+.caja3 {
+    background: linear-gradient(to bottom right, red, yellow); 
+}
+.caja4 {
+    background: linear-gradient(-45deg, rgb(22,18,11), rgb(220,152,52));   
+}
+.caja5 {
+    background: linear-gradient(rgb(72,6,74), rgb(69,23,221), rgb(230,190,14));
+}
+.caja6 {
+    background: linear-gradient(to right, rgba(255,0,0,0),rgba(255,0,0,1));
+}
+.caja7 {
+    background: repeating-linear-gradient(red, yellow 10%, green 20%); 
+}
+.caja8 {
+    background: radial-gradient(red, yellow, green);
+}
+.caja9 {
+    background: radial-gradient(red 5%, yellow 15%, green 60%);
+}
+.caja10 {
+    background: radial-gradient(circle, red, yellow, green);
+}
+.caja11 {
+    background: radial-gradient(red, yellow, green);
+}
+
+
+background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url("../../media/examples/lizard.png");

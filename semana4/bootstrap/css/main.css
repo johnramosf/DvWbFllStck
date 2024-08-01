@@ -1,0 +1,8 @@
+.mainDivTables {
+border:1px solid #000;
+background-color: cadetblue;
+}
+table caption {
+    background: rgb(18, 18, 223);
+    color:#FFF;
+}

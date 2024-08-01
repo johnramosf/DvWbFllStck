@@ -1,0 +1,138 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    padding: 5px;
+    display:-webkit-flex;
+    background: linear-gradient(to right,rgba(248, 175, 123,1),rgba(248, 175, 123,0));
+    color: #FFF;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#header img {
+    width:5%; 
+   }
+#banner {
+    min-height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 5px;
+    border-radius: 9px;
+}
+#banner .post-0 {
+    background-image: url(../img/afternoonEddYatch.jpg);
+    display: grid;
+    border-radius: 5px;
+    background-color: white;
+    background-position: center;
+    overflow: hidden;
+}
+#nav {
+    display: inline-block;
+    clear: both;
+    width: 100%;
+    background: linear-gradient(to right,rgba(205, 121, 11,1),rgba(205, 121, 11,0));
+}
+.topnav {
+    display: inline-block;
+    height: 25px; 
+    width: 100%;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: rgb(222, 212, 146);
+    color: black;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    /*
+    border-radius: 9px;*/
+}
+/*
+aside
+**************************************
+*/
+#aside {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr  1fr;
+    box-sizing: border-box;
+    padding: 10px;
+    gap: 10px;
+    /*background-color: white;
+    background-position: center;
+    */
+}
+#aside .post-0 {
+    background-image: url(../img/pexels-zsolt-joo-483255-2882234.jpg);
+    border-radius: 5px;
+    background-color: #5b900d;
+    background-size: cover;
+    background-position: center;
+}
+/*
+POSTS
+************************************/
+#posts {  
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;  
+    box-sizing: border-box;
+    padding: 10px;
+    gap: 10px;
+}
+#posts .post {
+    display: grid;
+    border-radius: 5px;
+    background-color: #5b900d;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+#posts .post a {
+    color: white;
+    text-decoration: none;
+}
+#posts .post .title {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+}
+#posts .post .title:hover {
+    background-color: white;
+    color: black;
+}
+#posts .post.post-1 {
+    background-image: url(../img/Khao-Sok-National-Park.webp);
+}
+#posts .post.post-2 {
+    background-image: url(../img/pexels-zsolt-joo-483255-2882234.jpg);
+}
+#posts .post.post-3 {
+    background-image: url(../img/traveling-macau_42256-120.avif);
+}
+#posts .post.post-4 {
+    background-image: url(../img/2024-benetti-oasis-34m-power-9432395-20240701112430075-1_XLARGE.jpg);
+}
+#posts .post.post-5 {
+    background-image: url(../img/pexels-photo-4397886.jpeg);
+}
+#posts .post.post-6 {
+    background-image: url(../img/tourists-exploring-machu-picchu-hot-background_1103100-92737.jpg);
+}

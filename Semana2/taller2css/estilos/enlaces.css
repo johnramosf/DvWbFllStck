@@ -1,0 +1,60 @@
+#indice a, a:link, a:visited, a:focus, a:hover, a:active{
+    color:#FFF; 
+    text-decoration:none;
+    cursor: default;
+  }
+
+#indice li a {
+    color: Gray;
+  }
+  
+#indice li a:hover{
+    color: Gray;
+    background-color: White; 
+    text-transform: uppercase;
+    }
+#indice li a:link {
+    color:red;
+    text-decoration: none;
+}
+#indice li a:visited {
+    color:purple;
+    font-style: italic;
+    text-shadow: violet;
+    text-decoration: none;
+}
+#indice >ul >li:hover {
+    background-color: rgb(4, 248, 24);
+}
+
+
+#pie a, a:link, a:visited, a:focus, a:hover, a:active{
+    color:unset;
+    text-decoration:none;
+    cursor: default;
+  }
+/*
+#pie a {
+ color:fuchsia;
+ font-weight: lighter;
+}*/
+
+#pie a:hover{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: teal;
+    font-style: normal;
+    background-color: White; 
+    border: solid black;
+    text-transform:capitalize;
+}
+
+#pie li a:link {
+        color:greenyellow;
+        text-decoration: none;
+}
+#pie a:visited {
+    color:crimson;
+    font-style: italic;
+    text-shadow: yellow;
+    text-decoration: none;
+}
