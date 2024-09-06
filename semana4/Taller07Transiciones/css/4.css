@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to bottom, #2ed573, #ceecd7);
+}
+.imagen-sepia {
+    overflow: hidden;
+    transition: filter 0.5s ease;
+}
+.imagen-sepia img {
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    filter: sepia(0);
+    transition: filter 0.5s ease;
+}
+.imagen-sepia:hover img {
+    filter: sepia(100%);
+}

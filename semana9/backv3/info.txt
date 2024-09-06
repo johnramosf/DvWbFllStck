@@ -1,0 +1,6 @@
+detenemos el servidor y ejecutamos el comando npm i dotenv -D para que 
+se instale en las dependencias
+agregar middleware morgan 
+Morgan es un módulo de npm que se utiliza para registrar información sobre las solicitudes HTTP que maneja tu aplicación Express. 
+Este middleware es útil para obtener información sobre el tráfico de tu aplicación, lo que facilita la depuración y el monitoreo.
+realizaremos consulta http con insomnia

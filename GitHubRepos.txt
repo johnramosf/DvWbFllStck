@@ -1,0 +1,10 @@
+
+Proyectos talleres, actividades y trabajos...
+
+GitHub proyecto Backend                  https://github.com/johnramosf/Back.git
+
+Vercel despliegue backend nodeJs     ---- https://back-nine-kappa.vercel.app/ 
+
+GitHub proyecto profileWeb             https://github.com/johnramosf/Profile.git
+
+Netlify despliegue webPage DevProfile ---  https://devproof.netlify.app/#about  
