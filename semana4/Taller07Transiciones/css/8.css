@@ -1,0 +1,17 @@
+.imagen-hue-rotate {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to bottom, #7bed9f, #2ed573, #ff6b6b);
+    overflow: hidden;
+    transition: filter 0.5s ease;
+    }
+    .imagen-hue-rotate img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: hue-rotate(0deg);
+    transition: filter 0.5s ease;
+    }
+    .imagen-hue-rotate:hover img {
+    filter: hue-rotate(180deg);
+    }

@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.header {
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #000000;
+    background: rgb(181, 184, 187);
+    color: #393535;
+    font-size: 1em;
+    font-weight: bold;   
+}
+
+.header em {
+    color: blue;
+}
+h1 {
+    color: #625c5c;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align:right;
+    padding-right: 15px;
+}
+
+.cards-container {
+    display: flex;
+    margin: 15px;
+    flex-flow: row nowrap;
+    text-align: center;
+    justify-content: space-between;
+}       
+
+.card {
+    margin: 2px solid #000;
+    border-radius: 60px 0 60px 0;
+    padding: 15px;
+    box-shadow: #565454 5cqi;
+    width: 30%; 
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.card p {
+    text-align: justify;
+}
+
+.card figure {
+    align-items: center;
+}
+
+.card img {
+    width:120px;
+    align-self:center;
+}
+
+h5 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold; 
+}
+
+.card1 {
+   background: rgb(79, 172, 243);
+}
+.card2 {
+    background: rgb(225, 187, 125);
+ }
+ .card3 {
+    background: rgb(236, 132, 98);
+ }
+
+ .another-card {
+    border: 1px solid #000000;
+    background: rgb(181, 184, 187);
+    border-radius: 60px 0 60px 0;
+    margin: 15px;
+ }
+ .another-more {
+    padding: 15px;
+    border: 1px solid #000000;
+    background: #f7f4f4cb;
+    border-radius: 60px 0 60px 0;
+    margin: 15px;
+    text-align: center;
+ }
+
+ .another-more p {
+    text-align: justify;
+ }
+
+ .another-more img {
+    height: 200px;      
+ }

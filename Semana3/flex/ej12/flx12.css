@@ -1,0 +1,48 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin:0px;  
+}
+
+header {
+    padding: 20px;
+    color: white;
+    text-align: right;
+    background: black;
+    font-size: 2em;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    padding:10px;
+    text-align: center;
+    width: 100%;
+}
+
+#articulo-1 {
+    background: #7ebdbb;
+}
+
+#articulo-2 {
+    background: #b6ebb3;
+}
+
+#articulo-1 {
+    background: #bacee3;
+}
+
+p {
+    text-align: justify;    
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    height: 350px;
+    width: 100%;
+}

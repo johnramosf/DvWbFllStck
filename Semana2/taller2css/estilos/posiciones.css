@@ -1,0 +1,42 @@
+.cabecera {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    height: 10%;
+    width: 92%;
+}
+
+#indice {
+    position: absolute;
+    top: 12%;
+    left: 2%;
+    width: 20%;
+    height: 76%;
+}
+
+.contenido {
+    position: absolute;
+    top: 12%;
+    left: 22%;
+    width: 78%;
+    height: 76%;
+}
+
+#pie {
+    position: absolute;
+    top: 88%;
+    left: 22%;
+    height: 12%;
+    width: 78%;
+    
+}
+.cabecera .contenido #indice #pie {
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+#imagen {
+ float:right;
+ width:11%;
+}

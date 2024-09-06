@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "MiFuente";
+    src: url("/fonts/MonsieurLaDoulaise-Regular.ttf");
+}
+
+@font-face {
+    font-family: "CoCa";
+    src: url("/fonts/Coca\ Cola\ ii.ttf");
+}
+
+body {
+    background: violet;
+}
+
+header {
+    height: 250px;
+    background: #000000;
+    color: #ffffff;
+}
+
+
+header img {
+    width: 200px;
+}
+
+.cuadroTextofuentePers {
+    padding: 50px;
+    background: beige;
+}
+
+.custFont {
+        font-family: "MiFuente", sans-serif;
+        font-size: 3em;
+}    
+
+#custFont1{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.span1 {
+    font-family: CoCa;
+    font-size: 150px;
+}
+
+.span2 {
+    font-family: CoCa;
+    font-size: 60px;
+}

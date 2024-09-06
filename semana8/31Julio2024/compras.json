@@ -1,0 +1,30 @@
+{
+  "tienda": "surtimax",
+  "fecha": "2024-07-31",
+  "numero_factura": 1,
+  "cliente": {
+    "id": 2020,
+    "nombre": "mauricio",
+    "email": "mauro@algo.com",
+    "tel": "55555"
+  },
+  "detalle": [
+    
+    { "id": 1,
+      "nombre": "leche",
+      "precio": 6000,
+      "cantidad": 1
+    },
+    
+    { "id": 2,
+      "nombre": "calado",
+      "precio": 500,
+      "cantidad": 2
+    },
+    { "id": 3,
+      "nombre": "huevos",
+      "precio": 500,
+      "cantidad": 4
+    }
+  ]
+}

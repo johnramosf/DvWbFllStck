@@ -1,0 +1,35 @@
+form {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+form .formul {
+    text-align: center;
+    width: 400px;
+    height: auto;
+    border: solid 1px hsl(238, 45%, 41%);
+    background: linear-gradient(to right, #d432f5, #116ddd);
+    font-family: cursive;
+    color: rgb(169, 236, 230);
+}
+form .formul .fila {
+    display: flex;
+    padding: 8px;
+    margin: 5px;
+    justify-content: space-between;    
+}
+.fila input {
+    width: 280px;
+}
+.boton {
+  width: 100px;
+  height: 25px;  
+  font-family: cursive;
+  font-size: medium;
+  font-weight: bold;
+  font-style: italic;
+  background-color: #7691b3;
+  color: rgb(0, 0, 0);
+  margin: 8px;  
+}

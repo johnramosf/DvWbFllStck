@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+figure {
+    height: 90vh;
+    width: 600px;
+    background-image: linear-gradient(to top, #e12929,#053760);
+    position: relative;
+}
+.buttons {
+    display:grid;
+    grid-auto-flow: column;
+    gap:2rem;
+    
+}
+.buttons_item {
+    background-color: seagreen;
+    color: #fff;
+    text-decoration: none;
+    padding: 1.5 rem 2 rem;
+
+    transition-property: background-color, transform;
+    transition-duration: 0.5s;
+}
+
+.buttons_item:hover {
+    background-color: darkred;
+    transform:scale(1.1);
+}
+
+img {
+    position: absolute;
+    top:0%;
+    bottom: 0px;
+    left: -15%;
+    margin: auto;
+    width: 130%;
+    max-width: 700px;
+    transform: scale(.2) rotate(-60deg);
+    opacity: 0;
+
+    transition-property: opacity, transform;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease;
+}
+img[id]:target {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+}

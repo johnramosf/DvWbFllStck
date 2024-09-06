@@ -1,0 +1,131 @@
+body {
+  border: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;    
+  background: white;
+}
+header {
+    padding: 5px;
+    margin-top: 5px;
+    background: chartreuse;
+    color: #fff;
+    font-size: 35px;
+    font-weight: lighter;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor p{
+    color:black;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 1em;
+    font-weight: bold;
+}
+.contenedor img {
+    width: 100px;
+    border-radius: 5px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+nav {
+    justify-content: flex-start;
+    background: #345a47;
+    padding: 1px;
+    padding-left: 5px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+nav ul {
+    display:flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+nav li {
+    /*display:inline;
+    list-style: none;
+    text-decoration: none;*/
+    margin-left:10px;
+}
+nav a {
+    color:azure;
+}
+nav a:hover {
+    color:cadetblue;
+}
+.banner {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+.card {
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+    min-width: 250px;
+}
+.card:nth-child(1) {
+    border: yellow 5px solid;
+    background-color: khaki;
+    border-radius: 50px 1px 50px 1px;
+}
+.card:nth-child(2) {
+    border: rgb(78,195,150) 5px solid;
+    background-color: rgb(126,200,159);
+    border-radius: 50px 1px 50px 1px;
+}
+.card:nth-child(3) {
+    border: mediumblue 5px solid;
+    background-color: #bce3fb;
+    border-radius: 50px 1px 50px 1px;
+}
+.card h2 {
+    margin-top: 15px;
+    color:black;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+}
+.card p {
+   margin-top: 15px;
+   font-size: 1.5em;
+   line-height: 1.6;
+}
+.imagen {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width:100px;
+} 
+.seccion2 {
+    padding:1px;
+    margin: 10px;
+    background: #e8dfdf;
+    min-width:250px;
+    box-shadow: 0 4px 8px #333;
+}
+.seccion2A {
+    margin:9px;
+    padding-left:10px;
+    padding:10px;
+    background: silver;
+}
+.seccion2B {
+    margin:9px;
+    padding-left:10px;
+    padding:10px;
+    background: silver;
+}
+.rating {
+    display:inline;
+    margin:20px;
+}
+label {
+    font-size: 40px;
+    color: aliceblue;
+    cursor: pointer;
+}

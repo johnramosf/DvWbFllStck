@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to top, #ffa500, #ff6b6b, #2ed573);
+}
+.imagen-contraste {
+    height: 500px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: filter 0.5s ease;
+}
+.imagen-contraste img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    filter: contrast(1);
+    transition: filter 0.5s ease;
+}
+.imagen-contraste:hover img {
+    filter: contrast(2);
+}

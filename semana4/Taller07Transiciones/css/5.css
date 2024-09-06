@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to right, #ff6b6b, #ffa500, #7bed9f);
+}
+.imagen-saturacion {
+    overflow: hidden;
+    transition: filter 0.5s ease;
+}
+.imagen-saturacion img {
+    margin: 5px;
+    padding: 5px;
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    filter: saturate(1);
+    transition: filter 0.5s ease;
+}
+.imagen-saturacion:hover img {
+    filter: saturate(3);
+}

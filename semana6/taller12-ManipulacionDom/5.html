@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/5.css">
+    <title>Taller 12 - Manipulacion del DOM</title>
+</head>
+<body>    
+    <h1>Taller 12 - Manipulacion del DOM</h1>
+    <div class="uno">
+        Crear una lista de tareas desde javascript
+    </div>
+    <div class="dos" visible="">
+        Validar un formulario
+        <form>
+            <div class="formul" onmouseover="mouseOnFormBackgr()" onmouseout="mouseOffFormBackgr()">
+                <h4><em>Formulario de registro</em></h4>
+                <div class="fila">
+                    <div><label for="name">*Nombres</label></div>
+                    <div><input class="inp" type="text" id="name"></div>
+                </div>
+                <div class="fila">
+                    <div><label for="lastname">*Apellidos</label></div>
+                    <div></div><input class="inp" type="text" id="lastname">
+                </div>
+                <div class="fila">
+                    <div><label for="adress">*Direccion</label></div>
+                    <div></div><input class="inp" type="text" id="adress">
+                </div>
+                <div class="fila">
+                    <div><label for="telephone">*Telefono</label></div>
+                    <div></div><input class="inp" type="number" size="9" id="telephone">
+                </div>
+                <div class="fila">
+                    <div><label for="email">*Email</label></div>
+                    <div></div><input class="inp" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" type="email" id="email">
+                </div>
+                <button class="boton" onclick="inicializar()" >Reset</button>
+                <button class="boton" id="boton" onclick="validar()" >Registrarse</button>
+            </div>
+        </form>
+    </div>
+    <div class="tres">
+        <span id="mostrar">
+            Mostrar contenido
+        <button onclick="mostrar()">Mostrar Registro de clientes</button>
+        </span>
+        <span id="ocultar">
+            Ocultar contenido
+        <button onclick="ocultar()">Ocultar Registro de clientes</button>
+        </span>    
+    </div>
+    <br/>
+    <div class="cuatro">
+        Cambiar estilos al pasar el mouse sobre el elemento <b>Formulario de registro</b> <br/>
+    </div>
+    <script src="/js/5.js"></script>
+</body>
+</html>

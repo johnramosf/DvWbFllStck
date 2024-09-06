@@ -1,0 +1,26 @@
+body {
+    
+    background-image: url(mondrian.jpg);
+}
+
+.cabecera {
+    /*background-color: rgb(71, 179, 250);*/
+    background-image: url("../img/fizzle.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;    
+}
+    #indice {
+    background-color: rgb(195, 98, 248);
+    background-image: url("../img/kandinsky.jpg");
+    }
+    .contenido {
+    background-color: rgb(29, 92, 147);
+    background-image: url("../img/water.jpg");
+    
+    }
+    #pie {
+    background-color: rgb(167, 3, 3);
+    background-image: url("../img/monet2.jpg");
+    }

@@ -1,0 +1,45 @@
+nav {
+    display:flex;
+    justify-content:space-between;
+}
+nav a {    
+    color:#555;
+    text-decoration: none;
+    padding:15px;
+}
+nav a:hover {
+    color: darkgoldenrod;
+    background-color: beige;
+}
+#banner {
+    text-align: center;
+}
+#banner img {
+    object-fit: cover;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.mainDivTables {
+    border:1px solid #000;
+    background-color: cadetblue;
+}
+#tablas {
+   display: flex;
+   justify-content: center;
+   text-align: center; 
+}
+table {
+    width:500px;
+    height: auto;
+}
+table th {
+    border: solid 1px #000; 
+    text-align: center;  
+}
+
+footer {
+    text-align: center;     
+}
+
