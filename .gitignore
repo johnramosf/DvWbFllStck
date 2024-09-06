@@ -9,4 +9,11 @@
 .history/
 
 # Built Visual Studio Code Extensions
-*.vsix
+*.vsix 
+
+# bootcamp
+node_modules
+.env
+build
+.apk
+.exe
